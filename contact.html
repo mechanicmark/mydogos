@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact —My Dogos</title>
+  <meta name="description" content="Contact page with static contact form and contact information.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header role="banner">
+    <div class="container">
+      <h1 class="site-title">My Dogos</h1>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <h1>Contact</h1>
+    <p>If you would like to reach out, use the form below. This is a static form (non-interactive) demo.</p>
+
+    <form action="#" method="post" aria-label="Contact form (static demo)">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
+
+      <div class="form-actions">
+        <!-- Non-functional submit (demo). To send email, replace action with a form service URL -->
+        <input type="submit" value="Submit" aria-label="Submit (static demo)">
+        <input type="reset" value="Clear" aria-label="Clear form">
+      </div>
+    </form>
+
+    <section>
+      <h2>Contact Info</h2>
+      <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      <p>Address: 123 Example Lane, City, Country</p>
+    </section>
+
+    <section style="margin-top:12px;">
+      <h2 class="copyright-attribution">Copyright & Attribution</h2>
+      <p>
+        https://vetslovepets.com.au/blogs/dog/cavoodle-breed-guide#article-section-4
+      </p>
+        <p>https://en.wikipedia.org/wiki/Cavapoo</p>
+        <p>https://www.houseofcavoodle.com.au/resources/breed-information/</p>
+      </p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 My Dogos. All images displayed on this website are original works created by Mark Anthony Canlas and are protected under applicable copyright laws.</p>
+    </div>
+  </footer>
+</body>
+</html>
